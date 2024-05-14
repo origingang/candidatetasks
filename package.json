@@ -1,0 +1,26 @@
+{
+  "name": "projetonodejs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/origingang/candidatetask.git"},
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "jshint src/myApp.js",
+    "start": "node src/myApp.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jshint": "^2.13.6"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4",
+    "puppeteer": "^22.8.0"
+  }
+}
