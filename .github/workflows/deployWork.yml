@@ -22,7 +22,7 @@ jobs:
           key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
           path: node_modules
 
-     - name: Install dependencies
+      - name: Install dependencies
         run: npm install
 
       - name: Lint code
